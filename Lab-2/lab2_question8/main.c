@@ -14,7 +14,7 @@ int main()
     printf("Enter the hypotenuse of triangle: ");
     scanf("%d",&hypotenuse);
 
-    area = .05*base*height;
+    area = .5*base*height;
     perimeter = base+height+hypotenuse;
 
     if(area>perimeter){
